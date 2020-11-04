@@ -1,0 +1,23 @@
+header {
+}
+h1 {
+  font-style: unset;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 50px;
+}
+.aa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

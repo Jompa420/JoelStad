@@ -1,7 +1,9 @@
 header {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
-  font-style: unset;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -9,15 +11,28 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: space-between;
+  justify-content: space-around;
 }
-nav {
+
+.row-layout {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-right: 50px;
+  justify-content: space-between;
+  justify-content: space-around;
+  column-gap: 10%;
+  padding-left: 3%;
+  padding-right: 6%;
 }
 .aa {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.bilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
 }

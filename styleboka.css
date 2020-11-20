@@ -130,3 +130,11 @@ body {
   background: #1abc9c;
   color: white !important;
 }
+form {
+  padding: 10px;
+}
+button {
+  color: black;
+  margin-left: 5%;
+  background-color: #3ddaad;
+}
